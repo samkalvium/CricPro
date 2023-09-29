@@ -1,0 +1,83 @@
+.img {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    z-index: -1;
+}
+
+.logo {
+    position: absolute;
+    right: 50px;
+    top: 20px;
+}
+
+.head {
+    position: absolute;
+    top: 80px;
+    left: 90px;
+}
+
+.head h1{
+    font-size: 50px;
+    text-shadow: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.head h3{
+    color: grey;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: -30px;
+}
+
+table {
+    margin-top: 230px;
+    margin-left: 80px;
+    background-color: white;
+    border-collapse: collapse;
+    
+}
+
+table th{
+    background-color: rgb(255, 60, 0);
+    height: 30px;
+    padding: 2px;
+    padding-right: 15px;
+    color: white;
+}
+
+table td{
+    padding: 6px;
+    border-bottom: 1px solid lightgrey;
+    height: 20px;
+}
+
+table td:nth-child(2){
+    color: grey;
+    padding-left: 50px;
+    padding-right: 80px;
+}
+
+table td:nth-child(1){
+    padding-left: 30px;
+}
+
+table td:nth-child(3){
+    padding-right: 25px;
+}
+
+table td:nth-child(4){
+    padding-right: 25px;
+}
+
+table td:nth-child(5){
+    padding-right: 25px;
+}
+
+table td:nth-child(7){
+    padding-right: 15px;
+    text-align: right;
+}
+
+footer{margin-left: 80px;}
